@@ -1,9 +1,9 @@
 # coding=utf-8
 from __future__ import absolute_import
 
-__author__ = "Jarek Szczepanski <imrahil@imrahil.com>"
+__author__ = "Jarek Szczepanski <imrahil@imrahil.com>, Kevin Köllmann <mail@kevinkoellmann.de>"
 __license__ = "GNU Affero General Public License http://www.gnu.org/licenses/agpl.html"
-__copyright__ = "Copyright (C) 2014 Jarek Szczepanski - Released under terms of the AGPLv3 License"
+__copyright__ = "Copyright (C) 2014 Jarek Szczepanski (C) 2018 Kevin Köllmann - Released under terms of the AGPLv3 License"
 
 import octoprint.plugin
 from octoprint.util import RepeatedTimer
@@ -138,12 +138,12 @@ class NavBarPlugin(octoprint.plugin.StartupPlugin,
 
                 # version check: github repository
                 type="github_release",
-                user="imrahil",
+                user="koelle25",
                 repo="OctoPrint-NavbarTemp",
                 current=self._plugin_version,
 
                 # update method: pip w/ dependency links
-                pip="https://github.com/imrahil/OctoPrint-NavbarTemp/archive/{target_version}.zip"
+                pip="https://github.com/koelle25/OctoPrint-NavbarTemp/archive/{target_version}.zip"
             )
         )
 
