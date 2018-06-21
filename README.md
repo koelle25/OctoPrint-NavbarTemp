@@ -12,4 +12,4 @@ The Displaynames of the Temperatures are configurable via the settings dialog:
 
 My modified version isn't available in the plugin repository, manual setup is required using this URL:
 
-    https://github.com/ntoff/OctoPrint-NavbarTemp/archive/master.zip
+    https://github.com/koelle25/OctoPrint-NavbarTemp/archive/master.zip
